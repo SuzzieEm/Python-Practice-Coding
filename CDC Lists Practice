@@ -1,0 +1,56 @@
+# Creating and appending lists
+Flowers = ['Daisy', 'Periwinkle', 'Rose', 'Hydrangea']
+Flowers.append('Lily')
+print(Flowers)
+
+#Indexing lists
+print(Flowers[2])
+
+# Negative indexing
+print(Flowers[-1])
+print(Flowers[-2])
+print(Flowers[-3])
+print(Flowers[-4])
+print(Flowers[-5])
+
+# Selecting last four items in a list
+print(Flowers[-4:])
+
+# Selecting everything but the last four items in a list
+print(Flowers[:-4])
+
+# Modifying 2D lists
+Name_Gender_Hobby = [['Stephen', 'Male', 'Singing'],['Benedict', 'Male', 'Movies'],['Anthony', 'Male', 'Reading']]
+print(Name_Gender_Hobby)
+Name_Gender_Hobby[0][2] = 'Farming'
+print(Name_Gender_Hobby)
+
+# Accessing sublists
+Name_Gender_Hobby = [['Stephen', 'Male', 'Singing'],['Benedict', 'Male', 'Movies'],['Anthony', 'Male', 'Reading']]
+Bens_Details = Name_Gender_Hobby[1]
+print(Bens_Details)
+Tonys_Details = Name_Gender_Hobby[2]
+print(Tonys_Details)
+
+#Removing from Lists
+Guys_I_Like = ['Stephen', 'Benedict', 'Anthony', 'Jesus', 'Prosper', 'Jesus']
+Guys_I_Like.remove('Jesus')
+print(Guys_I_Like)
+
+#Using Count in lists
+Fridge = ['Milk', 'Apples', 'Cookies', 'Pudding', 'Cake', 'Apples', 'Bananas', 'Apples']
+Num_Apples = Fridge.count('Apples')
+print(Num_Apples)
+
+# Determining list length
+Tot_Items = len(Fridge)
+print(Tot_Items)
+
+# Sorting a list 
+Num1 = [1, 5, 4, 8, 6, 3, 7, 10, 2, 9]
+Num1.sort()
+print(Num1)
+
+Num2 = ['Zena', 'Peri', 'Edward', 'Annette', 'Bernard']
+SortedNum2 = sorted(Num2)
+print(SortedNum2)
